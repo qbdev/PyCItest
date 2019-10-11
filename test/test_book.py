@@ -13,5 +13,5 @@ class BasicBookTest(unittest.TestCase, Generic[T]):
         self.assertEqual(str(tester), 'Monthy by Python')
 
 
-if __name__ == '__main__':l
+if __name__ == '__main__':
     unittest.main()
