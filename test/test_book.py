@@ -11,7 +11,3 @@ class BasicBookTest(unittest.TestCase, Generic[T]):
     def test_firstBook(self) -> None:
         tester: 'Book' = Book('Monthy', 'Python')
         self.assertEqual(str(tester), 'Monthy by Python')
-
-
-if __name__ == '__main__':
-    unittest.main()
